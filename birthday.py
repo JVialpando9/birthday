@@ -1,8 +1,18 @@
-import datetime
+from datetime import date
+import time
 
 print("welcomeeee")
-m = input("Enter your birth month: >") 
-d= input("Enter your birth day: >")
-y = input("Enter your birth year: >")
+name = input("What is your name? ")
+month = input("Enter your birth month: >") 
+day= input("Enter your birth day: >")
+year = input("Enter your birth year: >")
 
-print("You were born on:", m, d, y)
+print("your birthday is:", month, day, year)
+for i in range(2): 
+    print("Happy birthday to you")
+    time.sleep(1)
+
+print("Happy birthday dear.", name)
+
+td = date.today()  
+print(td)
