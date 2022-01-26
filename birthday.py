@@ -1,7 +1,7 @@
 from datetime import date
-import time
+import time 
 
-print("welcomeeee")
+print("Welcomeeee")
 name = input("What is your name? ")
 month = input("Enter your birth month: >") 
 day= input("Enter your birth day: >")
@@ -14,5 +14,5 @@ for i in range(2):
 
 print("Happy birthday dear.", name)
 
-td = date.today()  
-print(td)
+td = date.today()       
+print(td)  
